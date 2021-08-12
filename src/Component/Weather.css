@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.block1{
+    display: none;
+}
+
+.block1_none{
+    display: block;
+   
+}
+.block1block1_none{
+    color: black;
+     background-color: rgba(255, 255, 255, 0.5);
+     text-align: center;
+     width: 400px;
+     height: 300px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50px;
+     position: relative;
+
+}
+
+.main{
+    background-image: url('https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4 ease-out;
+    
+}
+
+.block5{
+    min-height: 100vh;
+}
+.search-box{
+    width: 100%;
+    margin: 0 0 75px;
+    
+   
+}
+
+.search-box .search-bar{
+    width: 600px;
+    padding: 15px;
+    background: none;
+    appearance: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius:  16px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+form{
+    padding-top: 50px;
+}
+
+.block1-p{
+    padding-top: 50px;
+    color: black;
+    font-size: 25px;
+}
+
+.block1-h2{
+    color: #0b5591;
+    padding-top: 12px;
+    
+}
+
+i{
+color: yellow;
+font-size: 70px;
+position: absolute;
+left: 25px;
+
+}
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 946px) {
+  .search-box .search-bar{
+      width: 400px;
+  }
+  .block1block1_none{
+      margin: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .search-box .search-bar{
+      width: 300px;
+  }
+}
+@media screen and (max-width: 408px) {
+  .block1block1_none{
+      width: 300px;
+  }
+  .block1block1_none>i{
+      display: none;
+  }
+ 
+}
